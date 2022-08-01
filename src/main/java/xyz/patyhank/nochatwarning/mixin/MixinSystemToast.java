@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(SystemToast.class)
-public class MixinToastManager {
+public class MixinSystemToast {
     @Shadow
     @Final
     private SystemToast.Type type;
